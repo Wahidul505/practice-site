@@ -1,0 +1,71 @@
+nav{
+  background-color: thistle;
+  padding: 1px 5px;
+  border-radius: 5px;
+}
+.nav-ul li{
+  list-style: none;
+  margin-top: 0;
+}
+.nav-ul a{
+  text-decoration: none;
+}
+.nav-ul{
+  display: flex;
+  font-size: 40px;
+}
+.nav-ul .menu{
+  position: absolute;
+  left: 800px;
+  display: flex;
+}
+.nav-ul .menu a{
+  margin: 0px 15px;
+}
+.nav-ul .logo{
+  margin-right: 15px;
+}
+.catagory ul{
+  display: none;
+  position: fixed;
+}
+.catagory:hover ul{
+  display: block;
+}
+.catagory li{
+  background-color: turquoise;
+  margin-top: 15px;
+  border-radius: 5px
+}
+.join ul{
+  position: fixed;
+  display: none;
+}
+.join:hover ul{
+  display: block;
+}
+.join li{
+  margin-top: 15px;
+  background-color: turquoise;
+  border-radius: 5px;
+}
+.join li:hover{
+  background-color: lightpink;
+}
+.catagory li:hover{
+  background-color:lightpink ;
+}
+table th,td{
+  border: 3px solid yellow;
+  padding: 5px 10px;
+  background-color: teal;
+}
+table{
+  border-collapse: collapse;
+}
+table th{
+  color: aqua;
+}
+table td{
+  color: white;
+}
